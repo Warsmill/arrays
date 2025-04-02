@@ -52,5 +52,16 @@ public class Main {
             }
         }
         System.out.println();
+
+        for (int i = 0; number1.length > i; i++) {
+            if (i % 2 != 0) {
+            } else {
+                number1[i]++;
+            }
+            System.out.print(number1[i]);
+            if (i < number1.length - 1) {
+                System.out.print(", ");
+            }
+        }
     }
 }
