@@ -29,5 +29,28 @@ public class Main {
             }
         }
         System.out.println();
+
+        for(int i = number1.length - 1;  i >= 0 ; i--){
+            System.out.print(number1[i]);
+            if (i > 0 ){
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for(int i = number2.length - 1; i >= 0; i-- ){
+            System.out.print(number2[i]);
+            if (i > 0 ){
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = word.length - 1; i >= 0; i--){
+            System.out.print(word[i]);
+            if (i > 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 }
